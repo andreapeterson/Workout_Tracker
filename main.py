@@ -36,7 +36,7 @@ sheety_data = {
             "date": today,
             "time": time,
             "exercise": exercise_data["name"].title(),
-            "duration": exercise_data["duration_min"],
+            "duration(minutes)": exercise_data["duration_min"],
             "calories": exercise_data["nf_calories"]
         }
     }
